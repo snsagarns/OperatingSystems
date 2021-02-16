@@ -89,7 +89,8 @@ int main (){
 	pthread_join(pid, NULL);
 	pthread_join(cid, NULL);
 
-printf("%d----------", num_size);
+	printf("%d----------", num_size);
+	
 	int i;
 	for (i = 0; i < size; i++){
 		printf("%d", buffer[i]);
@@ -99,11 +100,4 @@ printf("%d----------", num_size);
 	pthread_exit(NULL);
 
 	}
-
-
-
-
-
-
-
 
